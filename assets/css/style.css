@@ -506,7 +506,7 @@ footer{
 }
 @keyframes glow {
   50% {
-    box-shadow: 0 0 40px hsl(12, 100%, 60%);
+    box-shadow: 0 0 40px hsl(244, 100%, 60%);
   }
 } 
 .dugmad button{
