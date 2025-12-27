@@ -144,19 +144,32 @@ form .button {
 form .fa-solid {
    margin-left: 5px;
 }
-form .mapa {
-  width: 300px;
-  height: 200px;
+ .mapa {
+  width: 100%;
   display: flex;
-  justify-content: end;
-  position: absolute;
-  top: 220px;
-  right: 40px;
+  justify-content: center;
 }
-form .maps {
-  width: 300px;
-  height: 200px;
-  border-radius: 40px;
+ .maps {
+  width: 800px;
+  height: 500px;
+  position: absolute;
+  top: 250px;
+  border-radius: 20px;
+}
+.pozadina2 {
+  background-image: url(../img/pozadina.webp);
+  width: 100%;
+  background-attachment: fixed;
+  height: 800px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.mapa h1{
+  color: #ffff;
+  height: 100px;
+  padding-top: 100px;
+  
 }
 footer{
   width: 100%;
@@ -303,7 +316,7 @@ footer{
   color: #ffff;
   display: flex;
   justify-content: center;
-  gap: 100px;
+  
 }
 .textus {
   width: 400px;
@@ -311,20 +324,47 @@ footer{
 }
 .slicica {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 300px;
+  padding-top: 30px;
+}
+.tekst1{
+  display: flex;
   flex-direction: column;
-  height: 400px;
 }
-.slicica img {
-  width: 200px;
-  height: 133px;
-  
+.p2{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 60px;
 }
-.textus p {
-  margin-top: 120px;
+.slicica p {
+  display: flex;
+  gap: 30px;
   letter-spacing: 1px;
-  font-weight: bolder;
-  margin-right: 50px;
+  font-weight: bold;
+  width: 700px;
+}
+.slika2{
+  width: 300px;
+  padding-bottom: 20px;
+}
+.dugmad2{
+  display:flex ;
+  justify-content: center;
+  height: 30px;
+  padding-top: 30px;
+}
+.dugmad2 button{
+   width: 180px;
+  height: 50px;
+  border-radius: 40px
+}
+.dugmad2 a{
+  color: #383b53;
+  text-decoration: none;
+  font-weight: bold;
 }
 .akcija {
   width: 100%;
@@ -520,4 +560,7 @@ footer{
 }
 .button button{
    animation: glow 2s infinite;
+}
+.dugmad2 button{
+  animation: glow 2s infinite;
 }
