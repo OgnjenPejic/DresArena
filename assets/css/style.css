@@ -295,7 +295,7 @@ footer{
   width: 100%;
   color: #ffff;
   display: flex;
-  flex-direction: row;
+  justify-content: center;
   gap: 100px;
 }
 .textus {
